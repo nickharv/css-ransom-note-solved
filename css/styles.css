@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bytesized&family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&family=VT323&display=swap');
+
+
 
 * {
   padding: 0;
@@ -51,254 +55,178 @@ body {
   transition: all 0.8s ease-in-out;
 }
 
-/* Sample CSS for the WHY word */
-
-.whyWLetter {
+/* Style Group 1: Purple Theme with VT323 Font */
+.whyWLetter,
+.developerVLetter,
+.improveVLetter {
   font-size: 72px;
   font-weight: bold;
-  color: aqua;
+  color: #AF00F5;
   text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
+  font-family: 'VT323', monospace;
 }
 
-.whyHLetter {
+/* Style Group 2: Red Theme with Silkscreen Font */
+.whyHLetter,
+.frontendRLetter,
+.developerRLetter,
+.improveRLetter,
+.theirRLetter {
   font-size: 30px;
-  font-weight: bold;
-  color: darkgoldenrod;
+  font-weight: 700;
+  color: #F54F4A;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
+  font-family: 'Silkscreen', cursive;
 }
 
-.whyYLetter {
+/* Style Group 3: Light Purple Theme with Pixelify Sans Font */
+.whyYLetter,
+.frontendOLetter,
+.developerOLetter,
+.improveOLetter,
+.rootOLetter,
+.rootOTwoLetter {
   font-size: 60px;
   font-weight: normal;
-  color: coral;
+  color: #CCA8D6;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: 'Pixelify Sans', cursive;
 }
 
-/* DID word */
-
-.didDLetter {
-}
-
-.didILetter {
-}
-
-.didDTwoLetter {
-}
-
-/* THE word */
-
-.theTLetter {
-}
-
-.theHLetter {
-}
-
-.theELetter {
-}
-
-/* FRONT-END word */
-
-.frontendFLetter {
-}
-
-.frontendRLetter {
-}
-
-.frontendOLetter {
-}
-
-.frontendNLetter {
-}
-
-.frontendTLetter {
-}
-
-.frontendELetter {
-}
-
-.frontendNTwoLetter {
-}
-
-.frontendDLetter {
-}
-
-/* DEVELOPER word */
-
-.developerDLetter {
-}
-.developerELetter {
-}
-.developerVLetter {
-}
-.developerETwoLetter {
-}
-.developerLLetter {
-}
-.developerOLetter {
-}
-.developerPLetter {
-}
-.developerEThreeLetter {
-}
-.developerRLetter {
-}
-
-/* TAKE word */
-
-.takeTLetter {
-}
-.takeALetter {
-}
-.takeKLetter {
-}
-.takeELetter {
-}
-
-/* UP word */
-
-.upULetter {
-}
-.upPLetter {
-}
-
-/* GARDENING word */
-
-.gardeningGLetter {
-}
-.gardeningALetter {
-}
-.gardeningRLetter {
-}
-.gardeningDLetter {
-}
-.gardeningELetter {
-}
-.gardeningNLetter {
-}
-.gardeningILetter {
-}
-.gardeningNTwoLetter {
-}
-.gardeningGTwoLetter {
-}
-
-/* BECAUSE word */
-
-.becauseBLetter {
-}
-.becauseELetter {
-}
-.becauseCLetter {
-}
-.becauseALetter {
-}
-.becauseULetter {
-}
-.becauseSLetter {
-}
-.becauseETwoLetter {
-}
-
-/* THEY word */
-
-.theyTLetter {
-}
-.theyHLetter {
-}
-.theyELetter {
-}
-.theyYLetter {
-}
-
-/* WANTED word */
-
-.wantedWLetter {
-}
-.wantedALetter {
-}
-.wantedNLetter {
-}
-.wantedTLetter {
-}
-.wantedELetter {
-}
-.wantedDLetter {
-}
-
-/* TO word */
-
-.toTLetter {
-}
-.toOLetter {
-}
-
-/* IMPROVE word */
-
-.improveILetter {
-}
-.improveMLetter {
-}
-.improvePLetter {
-}
-.improveRLetter {
-}
-.improveOLetter {
-}
-.improveVLetter {
-}
-.improveELetter {
-}
-
-/* THEIR word */
-
-.theirTLetter {
-}
-.theirHLetter {
-}
-.theirELetter {
-}
-.theirILetter {
-}
-.theirRLetter {
-}
-
-/* ROOT word */
-
-.rootRLetter {
-}
-.rootOLetter {
-}
-.rootOTwoLetter {
-}
+/* Style Group 4: Light Blue Theme with Press Start 2P Font */
+.didDLetter,
+.didDTwoLetter,
+.frontendDLetter,
+.developerDLetter,
+.gardeningDLetter,
+.wantedDLetter,
+.improveMLetter,
+.theirILetter,
 .rootTLetter {
+  font-size: 45px;
+  font-weight: 700;
+  color: #8ED6EB;
+  text-decoration: line-through;
+  text-transform: capitalize;
+  font-family: 'Press Start 2P', cursive;
 }
 
-/* SKILLS word */
+/* Style Group 5: Green Theme with Bytesized Font */
+.didILetter,
+.frontendILetter,
+.gardeningILetter,
+.improveILetter {
+  font-size: 55px;
+  font-weight: 400;
+  color: #358443;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: 'Bytesized', cursive;
+}
 
-.skillsSLetter {
-}
-.skillsKLetter {
-}
-.skillsILetter {
-}
-.skillsLLetter {
-}
-.skillsLTwoLetter {
-}
+/* Style Group 6: Blue Theme with Roboto Font */
+.theTLetter,
+.theHLetter,
+.theELetter,
+.frontendFLetter,
+.frontendTLetter,
+.frontendELetter,
+.frontendNTwoLetter,
+.takeTLetter,
+.takeELetter,
+.upULetter,
+.upPLetter,
+.gardeningGLetter,
+.gardeningALetter,
+.gardeningRLetter,
+.gardeningELetter,
+.gardeningNLetter,
+.gardeningNTwoLetter,
+.gardeningGTwoLetter,
+.becauseBLetter,
+.becauseELetter,
+.becauseCLetter,
+.becauseALetter,
+.becauseULetter,
+.becauseSLetter,
+.becauseETwoLetter,
+.theyTLetter,
+.theyHLetter,
+.theyELetter,
+.theyYLetter,
+.wantedWLetter,
+.wantedALetter,
+.wantedNLetter,
+.wantedTLetter,
+.wantedELetter,
+.toTLetter,
+.toOLetter,
+.improvePLetter,
+.improveELetter,
+.theirTLetter,
+.theirHLetter,
+.theirELetter,
+.rootRLetter,
+.skillsSLetter,
+.skillsKLetter,
+.skillsILetter,
+.skillsLLetter,
+.skillsLTwoLetter,
 .skillsSTwoLetter {
+  font-size: 40px;
+  font-weight: 400;
+  color: #4272B2;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: 'Roboto', sans-serif;
 }
 
-/* SYMBOLS */
+/* Style Group 7: Bright Purple Theme with VT323 Font */
+.frontendNLetter,
+.developerELetter,
+.developerETwoLetter,
+.developerEThreeLetter,
+.developerLLetter,
+.developerPLetter,
+.takeALetter,
+.takeKLetter {
+  font-size: 65px;
+  font-weight: normal;
+  color: #D860F5;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: 'VT323', monospace;
+}
 
+/* Style Group 8: Dark Purple Theme with Silkscreen Font */
 .hyphen {
+  font-size: 50px;
+  font-weight: 700;
+  color: #884BF4;
+  text-decoration: line-through;
+  text-transform: none;
+  font-family: 'Silkscreen', cursive;
 }
-.exclamation-mark {
-}
+
+/* Style Group 9: Orange Theme with Pixelify Sans Font */
 .question-mark {
+  font-size: 80px;
+  font-weight: 700;
+  color: #F57F3F;
+  text-decoration: none;
+  text-transform: none;
+  font-family: 'Pixelify Sans', cursive;
+}
+
+/* Style Group 10: Bright Blue Theme with Press Start 2P Font */
+.exclamation-mark {
+  font-size: 75px;
+  font-weight: bold;
+  color: #4669F5;
+  text-decoration: underline;
+  text-transform: none;
+  font-family: 'Press Start 2P', cursive;
 }
