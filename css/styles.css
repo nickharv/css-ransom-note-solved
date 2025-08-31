@@ -1,8 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-/* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=VT323&display=swap"); */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&family=VT323&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&family=VT323&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bytesized&family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&family=VT323&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bytesized&family=Jersey+10&family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&family=Tiny5&family=VT323&display=swap');
 
 * {
   padding: 0;
@@ -53,178 +49,462 @@ body {
   transition: all 0.8s ease-in-out;
 }
 
-/* Style Group 1: Purple Theme with VT323 Font */
-.whyWLetter,
-.developerVLetter,
+/* Background colors for character boxes */
+.whyWLetter {
+  background-color: #af00f5;
+}
+.whyHLetter {
+  background-color: #f54f4a;
+}
+.whyYLetter {
+  background-color: #cca8d6;
+}
+.didDLetter {
+  background-color: #8ed6eb;
+}
+.didILetter {
+  background-color: #358443;
+}
+.didDTwoLetter {
+  background-color: #4272b2;
+}
+.theTLetter {
+  background-color: #d860f5;
+}
+.theHLetter {
+  background-color: #884bf4;
+}
+.theELetter {
+  background-color: #f57f3f;
+}
+.frontendFLetter {
+  background-color: #4669f5;
+}
+.frontendRLetter {
+  background-color: #af00f5;
+}
+.frontendOLetter {
+  background-color: #f54f4a;
+}
+.frontendNLetter {
+  background-color: #cca8d6;
+}
+.frontendTLetter {
+  background-color: #8ed6eb;
+}
+.frontendELetter {
+  background-color: #4272b2;
+}
+.frontendNTwoLetter {
+  background-color: #d860f5;
+}
+.frontendDLetter {
+  background-color: #884bf4;
+}
+.developerDLetter {
+  background-color: #f57f3f;
+}
+.developerELetter {
+  background-color: #4669f5;
+}
+.developerVLetter {
+  background-color: #af00f5;
+}
+.developerETwoLetter {
+  background-color: #f54f4a;
+}
+.developerLLetter {
+  background-color: #cca8d6;
+}
+.developerOLetter {
+  background-color: #8ed6eb;
+}
+.developerPLetter {
+  background-color: #358443;
+}
+.developerEThreeLetter {
+  background-color: #4272b2;
+}
+.developerRLetter {
+  background-color: #d860f5;
+}
+.takeTLetter {
+  background-color: #884bf4;
+}
+.takeALetter {
+  background-color: #f57f3f;
+}
+.takeKLetter {
+  background-color: #4669f5;
+}
+.takeELetter {
+  background-color: #af00f5;
+}
+.upULetter {
+  background-color: #f54f4a;
+}
+.upPLetter {
+  background-color: #cca8d6;
+}
+.gardeningGLetter {
+  background-color: #8ed6eb;
+}
+.gardeningALetter {
+  background-color: #358443;
+}
+.gardeningRLetter {
+  background-color: #4272b2;
+}
+.gardeningDLetter {
+  background-color: #d860f5;
+}
+.gardeningELetter {
+  background-color: #884bf4;
+}
+.gardeningNLetter {
+  background-color: #f57f3f;
+}
+.gardeningILetter {
+  background-color: #4669f5;
+}
+.gardeningNTwoLetter {
+  background-color: #af00f5;
+}
+.gardeningGTwoLetter {
+  background-color: #f54f4a;
+}
+.becauseBLetter {
+  background-color: #8ed6eb;
+}
+.becauseELetter {
+  background-color: #358443;
+}
+.becauseCLetter {
+  background-color: #4272b2;
+}
+.becauseALetter {
+  background-color: #d860f5;
+}
+.becauseULetter {
+  background-color: #884bf4;
+}
+.becauseSLetter {
+  background-color: #f57f3f;
+}
+.becauseETwoLetter {
+  background-color: #4669f5;
+}
+.theyTLetter {
+  background-color: #af00f5;
+}
+.theyHLetter {
+  background-color: #f54f4a;
+}
+.theyELetter {
+  background-color: #cca8d6;
+}
+.theyYLetter {
+  background-color: #8ed6eb;
+}
+.wantedWLetter {
+  background-color: #358443;
+}
+.wantedALetter {
+  background-color: #4272b2;
+}
+.wantedNLetter {
+  background-color: #d860f5;
+}
+.wantedTLetter {
+  background-color: #884bf4;
+}
+.wantedELetter {
+  background-color: #f57f3f;
+}
+.wantedDLetter {
+  background-color: #4669f5;
+}
+.toTLetter {
+  background-color: #af00f5;
+}
+.toOLetter {
+  background-color: #f54f4a;
+}
+.improveILetter {
+  background-color: #cca8d6;
+}
+.improveMLetter {
+  background-color: #8ed6eb;
+}
+.improvePLetter {
+  background-color: #358443;
+}
+.improveRLetter {
+  background-color: #4272b2;
+}
+.improveOLetter {
+  background-color: #d860f5;
+}
 .improveVLetter {
+  background-color: #884bf4;
+}
+.improveELetter {
+  background-color: #f57f3f;
+}
+.theirTLetter {
+  background-color: #4669f5;
+}
+.theirHLetter {
+  background-color: #af00f5;
+}
+.theirELetter {
+  background-color: #f54f4a;
+}
+.theirILetter {
+  background-color: #cca8d6;
+}
+.theirRLetter {
+  background-color: #8ed6eb;
+}
+.rootRLetter {
+  background-color: #358443;
+}
+.rootOLetter {
+  background-color: #4272b2;
+}
+.rootOTwoLetter {
+  background-color: #d860f5;
+}
+.rootTLetter {
+  background-color: #884bf4;
+}
+.skillsSLetter {
+  background-color: #f57f3f;
+}
+.skillsKLetter {
+  background-color: #4669f5;
+}
+.skillsILetter {
+  background-color: #af00f5;
+}
+.skillsLLetter {
+  background-color: #f54f4a;
+}
+.skillsLTwoLetter {
+  background-color: #cca8d6;
+}
+.skillsSTwoLetter {
+  background-color: #8ed6eb;
+}
+
+/* Style Group 1: Dark Theme with VT323 Font */
+.whyWLetter,
+.frontendRLetter,
+.developerLLetter,
+.takeALetter,
+.gardeningGLetter,
+.becauseCLetter,
+.theyYLetter,
+.wantedNLetter,
+.improvePLetter,
+.theirHLetter,
+.rootOTwoLetter,
+.skillsILetter,
+.upULetter {
   font-size: 72px;
   font-weight: bold;
-  color: #af00f5;
-  text-decoration: underline;
+  color: #09080d;
+  text-decoration: underline wavy;
   text-transform: uppercase;
-  font-family: "VT323", monospace;
+  font-family: 'VT323', monospace;
 }
 
-/* Style Group 2: Red Theme with Silkscreen Font */
+/* Style Group 2: Light Theme with Silkscreen Font */
 .whyHLetter,
-.frontendRLetter,
-.developerRLetter,
-.improveRLetter,
-.theirRLetter {
+.frontendOLetter,
+.developerPLetter,
+.takeKLetter,
+.gardeningALetter,
+.becauseULetter,
+.theyTLetter,
+.wantedALetter,
+.improveMLetter,
+.theirTLetter,
+.rootRLetter,
+.skillsKLetter,
+.upPLetter {
   font-size: 30px;
   font-weight: 700;
-  color: #f54f4a;
-  text-decoration: overline;
+  color: #f2f2e9;
+  text-decoration: overline wavy;
   text-transform: lowercase;
-  font-family: "Silkscreen", cursive;
+  font-family: 'Silkscreen', cursive;
 }
 
-/* Style Group 3: Light Purple Theme with Pixelify Sans Font */
+/* Style Group 3: Gray Theme with Pixelify Sans Font */
 .whyYLetter,
-.frontendOLetter,
+.frontendNLetter,
 .developerOLetter,
+.takeELetter,
+.gardeningRLetter,
+.becauseSLetter,
+.theyELetter,
+.wantedTLetter,
 .improveOLetter,
+.theirELetter,
 .rootOLetter,
-.rootOTwoLetter {
+.skillsLLetter,
+.toTLetter {
   font-size: 60px;
   font-weight: normal;
-  color: #cca8d6;
-  text-decoration: none;
+  color: #595856;
+  text-decoration: underline double;
   text-transform: uppercase;
-  font-family: "Pixelify Sans", cursive;
+  font-family: 'Pixelify Sans', cursive;
 }
 
-/* Style Group 4: Light Blue Theme with Press Start 2P Font */
+/* Style Group 4: Dark Gray Theme with Press Start 2P Font */
 .didDLetter,
-.didDTwoLetter,
-.frontendDLetter,
+.frontendTLetter,
 .developerDLetter,
+.takeTLetter,
 .gardeningDLetter,
+.becauseALetter,
+.theyHLetter,
 .wantedDLetter,
-.improveMLetter,
+.improveRLetter,
 .theirILetter,
-.rootTLetter {
+.rootTLetter,
+.skillsLTwoLetter,
+.toOLetter {
   font-size: 45px;
   font-weight: 700;
-  color: #8ed6eb;
-  text-decoration: line-through;
+  color: #262524;
+  text-decoration: line-through wavy;
   text-transform: capitalize;
-  font-family: "Press Start 2P", cursive;
+  font-family: 'Press Start 2P', cursive;
 }
 
-/* Style Group 5: Green Theme with Bytesized Font */
+/* Style Group 5: Light Gray Theme with Bytesized Font */
 .didILetter,
-.frontendILetter,
+.frontendFLetter,
+.developerVLetter,
+.takeULetter,
 .gardeningILetter,
-.improveILetter {
+.becauseBLetter,
+.theyWLetter,
+.improveILetter,
+.theirRLetter,
+.rootOTwoLetter,
+.skillsSLetter {
   font-size: 55px;
   font-weight: 400;
-  color: #358443;
-  text-decoration: underline;
+  color: #a6a39f;
+  text-decoration: underline overline;
   text-transform: uppercase;
-  font-family: "Bytesized", cursive;
+  font-family: 'Bytesized', cursive;
 }
 
-/* Style Group 6: Blue Theme with Roboto Font */
+/* Style Group 6: Dark Theme with Roboto Font */
 .theTLetter,
-.theHLetter,
-.theELetter,
-.frontendFLetter,
-.frontendTLetter,
 .frontendELetter,
-.frontendNTwoLetter,
-.takeTLetter,
-.takeELetter,
-.upULetter,
-.upPLetter,
-.gardeningGLetter,
-.gardeningALetter,
-.gardeningRLetter,
+.developerRLetter,
+.takePLetter,
 .gardeningELetter,
-.gardeningNLetter,
-.gardeningNTwoLetter,
-.gardeningGTwoLetter,
-.becauseBLetter,
 .becauseELetter,
-.becauseCLetter,
-.becauseALetter,
-.becauseULetter,
-.becauseSLetter,
-.becauseETwoLetter,
-.theyTLetter,
-.theyHLetter,
-.theyELetter,
 .theyYLetter,
 .wantedWLetter,
-.wantedALetter,
-.wantedNLetter,
-.wantedTLetter,
-.wantedELetter,
-.toTLetter,
-.toOLetter,
-.improvePLetter,
-.improveELetter,
+.improveVLetter,
 .theirTLetter,
-.theirHLetter,
-.theirELetter,
-.rootRLetter,
-.skillsSLetter,
-.skillsKLetter,
-.skillsILetter,
-.skillsLLetter,
-.skillsLTwoLetter,
+.rootOLetter,
 .skillsSTwoLetter {
   font-size: 40px;
   font-weight: 400;
-  color: #4272b2;
-  text-decoration: none;
+  color: #09080d;
+  text-decoration: line-through underline;
   text-transform: lowercase;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-/* Style Group 7: Bright Purple Theme with VT323 Font */
-.frontendNLetter,
+/* Style Group 7: Light Theme with VT323 Font */
+.theHLetter,
+.frontendNTwoLetter,
 .developerELetter,
-.developerETwoLetter,
-.developerEThreeLetter,
-.developerLLetter,
-.developerPLetter,
-.takeALetter,
-.takeKLetter {
+.takeDLetter,
+.gardeningNLetter,
+.becauseETwoLetter,
+.theyWLetter,
+.wantedELetter,
+.improveELetter,
+.theirWLetter,
+.rootTLetter {
   font-size: 65px;
   font-weight: normal;
-  color: #d860f5;
-  text-decoration: overline;
+  color: #f2f2e9;
+  text-decoration: overline dotted;
   text-transform: uppercase;
-  font-family: "VT323", monospace;
+  font-family: 'VT323', monospace;
 }
 
-/* Style Group 8: Dark Purple Theme with Silkscreen Font */
+/* Style Group 8: Gray Theme with Silkscreen Font */
+.theELetter,
+.frontendDLetter,
+.developerETwoLetter,
+.takeOLetter,
+.gardeningNTwoLetter,
+.becauseFLetter,
+.theyHLetter,
+.wantedPLetter,
+.improveTLetter,
+.theirELetter,
+.rootRLetter,
 .hyphen {
   font-size: 50px;
   font-weight: 700;
-  color: #884bf4;
-  text-decoration: line-through;
+  color: #595856;
+  text-decoration: none;
   text-transform: none;
-  font-family: "Silkscreen", cursive;
+  font-family: 'Silkscreen', cursive;
 }
 
-/* Style Group 9: Orange Theme with Pixelify Sans Font */
+/* Style Group 9: Dark Gray Theme with Pixelify Sans Font */
+.didDTwoLetter,
+.frontendILetter,
+.developerEThreeLetter,
+.takeKLetter,
+.gardeningGTwoLetter,
+.becauseDLetter,
+.theyTLetter,
+.wantedTLetter,
+.improveOLetter,
+.theirILetter,
+.rootOTwoLetter,
 .question-mark {
   font-size: 80px;
   font-weight: 700;
-  color: #f57f3f;
-  text-decoration: none;
+  color: #262524;
+  text-decoration: underline dotted;
   text-transform: none;
-  font-family: "Pixelify Sans", cursive;
+  font-family: 'Pixelify Sans', cursive;
 }
 
-/* Style Group 10: Bright Blue Theme with Press Start 2P Font */
+/* Style Group 10: Light Gray Theme with Press Start 2P Font */
+.didDLetter,
+.frontendTLetter,
+.developerDLetter,
+.takeTLetter,
+.gardeningDLetter,
+.becauseALetter,
+.theyHLetter,
+.wantedDLetter,
+.improveRLetter,
+.theirILetter,
+.rootTLetter,
 .exclamation-mark {
   font-size: 75px;
   font-weight: bold;
-  color: #4669f5;
-  text-decoration: underline;
+  color: #a6a39f;
+  text-decoration: underline wavy;
   text-transform: none;
-  font-family: "Press Start 2P", cursive;
+  font-family: 'Press Start 2P', cursive;
 }

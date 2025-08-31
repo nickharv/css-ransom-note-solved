@@ -1,16 +1,34 @@
 {
   "name": "css-ransom-note-unsolved",
   "version": "1.0.0",
-  "description": "The CSS text styling assignment.",
+  "description": "Create Your Ransom Note: A Fun CSS Styling Challenge!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "live-server": "npx live-server --port=5551"
+    "live-server": "npx http-server --port=5551 -o",
+    "start": "npx http-server --port=5551 -o",
+    "browser-install": "npm install -g browser-sync",
+    "browser-sync": "browser-sync start --server --files \"**/*.html, **/*.css, **/*.js\" --port=5551 --open",
+    "test-ui": "npm run validate-html && npm run validate-css && npm run validate-requirements",
+    "test-ui-full": "npm run validate-html && npm run validate-css && npm run validate-requirements && npm run format-check",
+    "validate-html": "npx html-validate index.html",
+    "validate-css": "npx stylelint css/styles.css",
+    "validate-basic": "npm run validate-html",
+    "validate-requirements": "node scripts/validate-requirements.js",
+    "validate-w3c": "echo 'Use W3C Web Validator extension or visit https://validator.w3.org/'",
+    "format-check": "npx prettier --check .",
+    "format": "npx prettier --write ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "live-server": "^1.2.2"
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "html-validate": "^10.0.0",
+    "prettier": "^3.6.2",
+    "stylelint": "^16.23.1",
+    "stylelint-config-standard": "^39.0.0"
   }
 }
