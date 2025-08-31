@@ -1,304 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+/* Color Theme Swatches in Hex */
+.RansomNoteSolved_Project-1-hex { color: #AF00F5; }
+.RansomNoteSolved_Project-2-hex { color: #F54F4A; }
+.RansomNoteSolved_Project-3-hex { color: #CCA8D6; }
+.RansomNoteSolved_Project-4-hex { color: #8ED6EB; }
+.RansomNoteSolved_Project-5-hex { color: #358443; }
+.RansomNoteSolved_Project-6-hex { color: #4272B2; }
+.RansomNoteSolved_Project-7-hex { color: #D860F5; }
+.RansomNoteSolved_Project-8-hex { color: #884BF4; }
+.RansomNoteSolved_Project-9-hex { color: #F57F3F; }
+.RansomNoteSolved_Project-10-hex { color: #4669F5; }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+/* Color Theme Swatches in RGBA */
+.RansomNoteSolved_Project-1-rgba { color: rgba(175, 0, 245, 1); }
+.RansomNoteSolved_Project-2-rgba { color: rgba(245, 79, 74, 1); }
+.RansomNoteSolved_Project-3-rgba { color: rgba(204, 168, 214, 1); }
+.RansomNoteSolved_Project-4-rgba { color: rgba(142, 214, 235, 1); }
+.RansomNoteSolved_Project-5-rgba { color: rgba(53, 132, 67, 1); }
+.RansomNoteSolved_Project-6-rgba { color: rgba(66, 114, 178, 1); }
+.RansomNoteSolved_Project-7-rgba { color: rgba(216, 96, 245, 1); }
+.RansomNoteSolved_Project-8-rgba { color: rgba(136, 75, 244, 1); }
+.RansomNoteSolved_Project-9-rgba { color: rgba(245, 127, 63, 1); }
+.RansomNoteSolved_Project-10-rgba { color: rgba(70, 105, 245, 1); }
 
-body,
-html {
-  width: 100%;
-  min-height: 100%;
-}
-
-body {
-  display: flex;
-  padding: 100px;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 20px;
-  background-color: #282a56;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  gap: 90px;
-  flex-wrap: wrap;
-}
-
-.word {
-  max-width: max-content;
-  display: flex;
-  gap: 20px;
-}
-
-.word > span {
-  position: relative;
-  padding: 20px 30px;
-  width: max-content;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 90px;
-  max-height: 90px;
-  border: 6px solid grey;
-  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
-  transition: all 0.8s ease-in-out;
-}
-
-/* Sample CSS for the WHY word */
-
-.whyWLetter {
-  font-size: 72px;
-  font-weight: bold;
-  color: aqua;
-  text-decoration: underline;
-  text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
-}
-
-.whyHLetter {
-  font-size: 30px;
-  font-weight: bold;
-  color: darkgoldenrod;
-  text-decoration: overline;
-  text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
-}
-
-.whyYLetter {
-  font-size: 60px;
-  font-weight: normal;
-  color: coral;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
-}
-
-/* DID word */
-
-.didDLetter {
-}
-
-.didILetter {
-}
-
-.didDTwoLetter {
-}
-
-/* THE word */
-
-.theTLetter {
-}
-
-.theHLetter {
-}
-
-.theELetter {
-}
-
-/* FRONT-END word */
-
-.frontendFLetter {
-}
-
-.frontendRLetter {
-}
-
-.frontendOLetter {
-}
-
-.frontendNLetter {
-}
-
-.frontendTLetter {
-}
-
-.frontendELetter {
-}
-
-.frontendNTwoLetter {
-}
-
-.frontendDLetter {
-}
-
-/* DEVELOPER word */
-
-.developerDLetter {
-}
-.developerELetter {
-}
-.developerVLetter {
-}
-.developerETwoLetter {
-}
-.developerLLetter {
-}
-.developerOLetter {
-}
-.developerPLetter {
-}
-.developerEThreeLetter {
-}
-.developerRLetter {
-}
-
-/* TAKE word */
-
-.takeTLetter {
-}
-.takeALetter {
-}
-.takeKLetter {
-}
-.takeELetter {
-}
-
-/* UP word */
-
-.upULetter {
-}
-.upPLetter {
-}
-
-/* GARDENING word */
-
-.gardeningGLetter {
-}
-.gardeningALetter {
-}
-.gardeningRLetter {
-}
-.gardeningDLetter {
-}
-.gardeningELetter {
-}
-.gardeningNLetter {
-}
-.gardeningILetter {
-}
-.gardeningNTwoLetter {
-}
-.gardeningGTwoLetter {
-}
-
-/* BECAUSE word */
-
-.becauseBLetter {
-}
-.becauseELetter {
-}
-.becauseCLetter {
-}
-.becauseALetter {
-}
-.becauseULetter {
-}
-.becauseSLetter {
-}
-.becauseETwoLetter {
-}
-
-/* THEY word */
-
-.theyTLetter {
-}
-.theyHLetter {
-}
-.theyELetter {
-}
-.theyYLetter {
-}
-
-/* WANTED word */
-
-.wantedWLetter {
-}
-.wantedALetter {
-}
-.wantedNLetter {
-}
-.wantedTLetter {
-}
-.wantedELetter {
-}
-.wantedDLetter {
-}
-
-/* TO word */
-
-.toTLetter {
-}
-.toOLetter {
-}
-
-/* IMPROVE word */
-
-.improveILetter {
-}
-.improveMLetter {
-}
-.improvePLetter {
-}
-.improveRLetter {
-}
-.improveOLetter {
-}
-.improveVLetter {
-}
-.improveELetter {
-}
-
-/* THEIR word */
-
-.theirTLetter {
-}
-.theirHLetter {
-}
-.theirELetter {
-}
-.theirILetter {
-}
-.theirRLetter {
-}
-
-/* ROOT word */
-
-.rootRLetter {
-}
-.rootOLetter {
-}
-.rootOTwoLetter {
-}
-.rootTLetter {
-}
-
-/* SKILLS word */
-
-.skillsSLetter {
-}
-.skillsKLetter {
-}
-.skillsILetter {
-}
-.skillsLLetter {
-}
-.skillsLTwoLetter {
-}
-.skillsSTwoLetter {
-}
-
-/* SYMBOLS */
-
-.hyphen {
-}
-.exclamation-mark {
-}
-.question-mark {
-}
+/* Color Theme Swatches in HSLA */
+.RansomNoteSolved_Project-1-hsla { color: hsla(282, 100, 48, 1); }
+.RansomNoteSolved_Project-2-hsla { color: hsla(1, 89, 62, 1); }
+.RansomNoteSolved_Project-3-hsla { color: hsla(286, 35, 74, 1); }
+.RansomNoteSolved_Project-4-hsla { color: hsla(193, 69, 73, 1); }
+.RansomNoteSolved_Project-5-hsla { color: hsla(130, 42, 36, 1); }
+.RansomNoteSolved_Project-6-hsla { color: hsla(214, 45, 47, 1); }
+.RansomNoteSolved_Project-7-hsla { color: hsla(288, 88, 66, 1); }
+.RansomNoteSolved_Project-8-hsla { color: hsla(261, 88, 62, 1); }
+.RansomNoteSolved_Project-9-hsla { color: hsla(21, 90, 60, 1); }
+.RansomNoteSolved_Project-10-hsla { color: hsla(228, 89, 61, 1); }
