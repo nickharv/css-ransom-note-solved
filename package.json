@@ -10,14 +10,12 @@
     "browser-install": "npm install -g browser-sync",
     "browser-sync": "browser-sync start --server --files \"**/*.html, **/*.css, **/*.js\" --port=5551 --open",
     "test-ui": "npm run validate-html && npm run validate-css && npm run validate-requirements",
-    "test-ui-full": "npm run validate-html && npm run validate-css && npm run validate-requirements && npm run format-check",
+    "test-ui-full": "npm run validate-html && npm run validate-css && npm run validate-requirements",
     "validate-html": "npx html-validate index.html",
     "validate-css": "npx stylelint css/styles.css",
     "validate-basic": "npm run validate-html",
     "validate-requirements": "node scripts/validate-requirements.js",
-    "validate-w3c": "echo 'Use W3C Web Validator extension or visit https://validator.w3.org/'",
-    "format-check": "npx prettier --check .",
-    "format": "npx prettier --write ."
+    "validate-w3c": "echo 'Use W3C Web Validator extension or visit https://validator.w3.org/'"
   },
   "keywords": [],
   "author": "",
@@ -27,7 +25,6 @@
   },
   "devDependencies": {
     "html-validate": "^10.0.0",
-    "prettier": "^3.6.2",
     "stylelint": "^16.23.1",
     "stylelint-config-standard": "^39.0.0"
   }
